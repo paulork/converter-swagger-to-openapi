@@ -1,0 +1,189 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+*.po
+
+# Django stuff:
+# *.log  # Already covered by a more general *.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+# According to Python official guidance, this file should not be tracked.
+# https://pipenv.pypa.io/en/latest/advanced/#pipfile-lock
+Pipfile.lock
+
+# PEP 582; remove simplejson_build directory
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs and editors
+/.idea/
+/node_modules/
+/.vscode/
+/*.code-workspace
+/.vscodeignore
+/.history/
+project.xcworkspace/
+project.xcworkspace/
+xcuserdata/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+project.lock.json
+project.fragment.lock.json
+package-lock.json
+yarn.lock
+composer.lock
+webpack.mix.js
+mix-manifest.json
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+/.fleet/
+
+# Custom project rules
+# Ensure the sample_openapi_files directory itself is NOT ignored by default.
+# The .gitkeep file ensures it's tracked even if empty initially.
+!/openapi_agentic_converter/sample_openapi_files/
+!/openapi_agentic_converter/sample_openapi_files/.gitkeep
+# Example for ignoring specific subdirectories like output:
+# /openapi_agentic_converter/sample_openapi_files/output/*
+
+# Ensure test files and __init__.py are not ignored
+!/openapi_agentic_converter/tests/*
+!/openapi_agentic_converter/tests/.gitkeep
+!/openapi_agentic_converter/tests/__init__.py
+
+# Ensure agent and util __init__.py are not ignored
+!/openapi_agentic_converter/src/agents/__init__.py
+!/openapi_agentic_converter/src/utils/__init__.py
+
+# General log files (if not covered by specific tool logs above)
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
